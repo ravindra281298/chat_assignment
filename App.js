@@ -10,7 +10,7 @@ const app = express();
 const hostName = 'localhost';
 const port = process.env.port || 4000 ;
 const jsonParser = bodyParser.json();
-const URI = "mongodb+srv://ravindra281298:ravindra281298@devconnector-pxenm.mongodb.net/store?retryWrites=true&w=majority";
+const URI = "mongodb+srv://ravindra281298:<Password>@devconnector-pxenm.mongodb.net/store?retryWrites=true&w=majority";
 
 
 
